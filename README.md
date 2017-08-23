@@ -22,7 +22,7 @@ Install a fresh environment according the choosen version.
 Install the related configuration file.
 
     git clone https://github.com/tmonguillon/devstack_conf.git -b mitaka-eol
-    ln -s devstack_conf/local.conf devstack/local.conf
+    ln -sf `pwd`/devstack_conf/local.conf `pwd`/devstack/local.conf
 
 Now you can launch devstack.
 
