@@ -1,13 +1,13 @@
 # devstack_conf
 
-Configuration file for Devstack Mitaka version.
+Configuration file for Devstack Mitaka version with OpenContrail.
 
 **Warning: Mitaka is now EOL**
 
 Requirements
 ============
 
-* Barematel or VM with 6Gb RAM and 20Gb Disk (at least)
+* Barematel or VM with 8Gb RAM and 40Gb Disk (at least)
 * Ubuntu 14.04
 * Git installed
 
@@ -21,7 +21,7 @@ Install a fresh environment according the choosen version.
 
 Install the related configuration file.
 
-    git clone https://github.com/tmonguillon/devstack_conf.git -b mitaka-eol
+    git clone https://github.com/tmonguillon/devstack_conf.git -b mitaka-eol-contrail
     ln -sf `pwd`/devstack_conf/local.conf `pwd`/devstack/local.conf
 
 Now you can launch devstack.
