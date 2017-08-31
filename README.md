@@ -7,7 +7,7 @@ Configuration file for Devstack Mitaka version with OpenContrail.
 Requirements
 ============
 
-* Barematel or VM with 8Gb RAM and 40Gb Disk (at least)
+* Baremetal or VM with 8Gb RAM and 40Gb Disk (at least)
 * Ubuntu 14.04
 * Git installed
 
