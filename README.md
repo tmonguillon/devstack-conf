@@ -41,6 +41,7 @@ With version mitaka-eol, the stack process can fail with an error like this one:
 
 To fix this, you need to edit the file "/usr/local/lib/python2.7/dist-packages/openstack/session.py" at the line 29 and remove ".__version__" to the string "openstack.__version__". Save the modification, unstask.sh and stack.sh.
 
-
+WARNING: Modifying the upper-contraints.txt file to update the openstacksdk version does not work for me as well
+as updating the REQUIREMENTS_BRANCH to stable/newton.
 
 
