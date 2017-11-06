@@ -10,6 +10,7 @@ Requirements
 * Baremetal or VM with 8Gb RAM and 40Gb Disk (at least)
 * Ubuntu 14.04
 * Git installed
+* Promiscuous mode on the ethernet card if you want to route the public network
 
 
 Installation & configuration
