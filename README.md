@@ -1,6 +1,6 @@
-# devstack_conf
+# devstack-conf
 
-Configuration file for Devstack Ocata version with Neutron + networking-sfc.
+Configuration file for Devstack Pike version with Neutron + networking-sfc.
 
 Requirements
 ============
@@ -15,11 +15,11 @@ Installation & configuration
 
 Install a fresh environment according the choosen version.
 
-    git clone https://github.com/openstack-dev/devstack.git -b stable/ocata
+    git clone https://github.com/openstack-dev/devstack.git -b stable/pike
 
 Install the related configuration file.
 
-    git clone https://github.com/tmonguillon/devstack-conf.git -b ocata-sfc-docker
+    git clone https://github.com/tmonguillon/devstack-conf.git -b pike-sfc
     ln -sf `pwd`/devstack-conf/local.conf `pwd`/devstack/local.conf
 
 Now you can launch devstack.
